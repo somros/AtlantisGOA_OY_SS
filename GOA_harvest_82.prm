@@ -1554,7 +1554,7 @@ flagbuffereffort	0	 ## Effort buffering on for dynamic fleet model [1] Yes or [0
 flagchangeeffort	1	 ## Fishing pressure changes with time [1] Yes or [0] No 
 flagchangediscrd	0	 ## Discarding practices change with time [1] Yes or [0] No 
 flagchangesel	0	 ## Selectivity changes with time [1] Yes or [0] No 
-flagchangeF	0	 ## F mortality rate forcing changes [1] Yes or [0] remains constant 
+flagchangeF	1	 ## F mortality rate forcing changes [1] Yes or [0] remains constant
 flagchangeq	0	 ## Catchability changes with time [1] Yes or [0] remains constant 
 flagchangep	0	 ## Fisheries spatial coverage changes with time [1] Yes or [0] remains constant 
 flagchangeswept	0	 ## Fisheries gear swept area changes with time [1] Yes or [0] remains constant 
@@ -2291,7 +2291,7 @@ flagFchange_COD	33	##
 flagFchange_HER	33	## 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 flagFchange_ATF	33	## 
-0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0
 flagFchange_HAL	33	## 
 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 flagFchange_FHS	33	## 
