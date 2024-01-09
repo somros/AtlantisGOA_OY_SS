@@ -2864,237 +2864,324 @@ salt_correction_PS   1
 salt_correction_BB   1
 salt_correction_PB   1
 
+# Explicit Q10 exponent
+
+q10_KWT   1
+q10_WHT   1
+q10_KWR   1
+q10_DOL   1
+q10_WHG   1
+q10_WHH   1
+q10_WHB   1
+q10_SSL   1
+q10_PIN   1
+q10_BDF   1
+q10_BDI   1
+q10_BSF   1
+q10_BSI   1
+q10_SHD   2
+q10_SHP   2
+q10_DOG   2
+q10_POL   2
+q10_COD   2
+q10_HER   2
+q10_ATF   2
+q10_HAL   2
+q10_FHS   2
+q10_REX   2
+q10_FFS   2
+q10_FFD   2
+q10_SKL   2
+q10_SKB   2
+q10_SKO   2
+q10_SBF   2
+q10_POP   2
+q10_RFS   2
+q10_RFP   2
+q10_RFD   2
+q10_THO   2
+q10_DFS   2
+q10_DFD   2
+q10_SCU   2
+q10_OCT   2
+q10_SQD   2
+q10_SCH   2
+q10_SCM   2
+q10_SCO   2
+q10_SPI   2
+q10_SSO   2
+q10_HAK   2
+q10_CAP   2
+q10_SAN   2
+q10_FOS   2
+q10_EUL   2
+q10_TAN   2
+q10_KIN   2
+q10_CRO   2
+q10_PAN   2
+q10_PWN   2
+q10_EBC   2
+q10_BG   2
+q10_COR   2
+q10_SPG   2
+q10_BFF   2
+q10_BIV   2
+q10_BC   2
+q10_BO   2
+q10_BD   2
+q10_MA   2
+q10_EUP   2
+q10_ZL   2
+q10_ZM   2
+q10_ZS   2
+q10_JEL   2
+q10_GEL   2
+q10_PTE   2
+q10_PL   2
+q10_PS   2
+q10_BB   2
+q10_PB   2
+
 # Coefficient A in Gary Griffith temperature function originally 0.851 overall
 
-temp_coefftA_KWT   0.851
-temp_coefftA_WHT   0.851
-temp_coefftA_KWR   0.851
-temp_coefftA_DOL   0.851
-temp_coefftA_WHG   0.851
-temp_coefftA_WHH   0.851
-temp_coefftA_WHB   0.851
-temp_coefftA_SSL   0.851
-temp_coefftA_PIN   0.851
-temp_coefftA_BDF   0.851
-temp_coefftA_BDI   0.851
-temp_coefftA_BSF   0.851
-temp_coefftA_BSI   0.851
-temp_coefftA_SHD   0.851
-temp_coefftA_SHP   0.851
-temp_coefftA_DOG   0.851
-temp_coefftA_POL   2.6
-temp_coefftA_COD   2.41
-temp_coefftA_HER   2.6
-temp_coefftA_ATF   2.497
-temp_coefftA_HAL   3.084
-temp_coefftA_FHS   0.851
-temp_coefftA_REX   0.851
-temp_coefftA_FFS   0.851
-temp_coefftA_FFD   0.851
-temp_coefftA_SKL   0.851
-temp_coefftA_SKB   0.851
-temp_coefftA_SKO   0.851
-temp_coefftA_SBF   0.851
-temp_coefftA_POP   0.851
-temp_coefftA_RFS   0.851
-temp_coefftA_RFP   0.851
-temp_coefftA_RFD   0.851
-temp_coefftA_THO   0.851
-temp_coefftA_DFS   0.851
-temp_coefftA_DFD   0.851
-temp_coefftA_SCU   0.851
-temp_coefftA_OCT   0.851
-temp_coefftA_SQD   0.851
-temp_coefftA_SCH   0.851
-temp_coefftA_SCM   0.851
-temp_coefftA_SCO   0.851
-temp_coefftA_SPI   0.851
-temp_coefftA_SSO   0.851
-temp_coefftA_HAK   0.851
-temp_coefftA_CAP   2.6
-temp_coefftA_SAN   2.6
-temp_coefftA_FOS   2.6
-temp_coefftA_EUL   2.6
-temp_coefftA_TAN   0.851
-temp_coefftA_KIN   0.851
-temp_coefftA_CRO   0.851
-temp_coefftA_PAN   0.851
-temp_coefftA_PWN   0.851
-temp_coefftA_EBC   0.851
-temp_coefftA_BG   0.851
-temp_coefftA_COR   0.851
-temp_coefftA_SPG   0.851
-temp_coefftA_BFF   0.851
-temp_coefftA_BIV   0.851
-temp_coefftA_BC   0.851
-temp_coefftA_BO   0.851
-temp_coefftA_BD   0.851
-temp_coefftA_MA   0.851
-temp_coefftA_EUP   0.851
-temp_coefftA_ZL   0.851
-temp_coefftA_ZM   0.851
-temp_coefftA_ZS   0.851
-temp_coefftA_JEL   0.851
-temp_coefftA_GEL   0.851
-temp_coefftA_PTE   0.851
-temp_coefftA_PL   0.851
-temp_coefftA_PS   0.851
-temp_coefftA_BB   0.851
-temp_coefftA_PB   0.851
+temp_coefftA_KWT 0.851
+temp_coefftA_WHT 0.851
+temp_coefftA_KWR 0.851
+temp_coefftA_DOL 0.851
+temp_coefftA_WHG 0.851
+temp_coefftA_WHH 0.851
+temp_coefftA_WHB 0.851
+temp_coefftA_SSL 0.851
+temp_coefftA_PIN 0.851
+temp_coefftA_BDF 0.851
+temp_coefftA_BDI 0.851
+temp_coefftA_BSF 0.851
+temp_coefftA_BSI 0.851
+temp_coefftA_SHD 0.851
+temp_coefftA_SHP 0.851
+temp_coefftA_DOG 0.851
+temp_coefftA_POL 2.6
+temp_coefftA_COD 2.41
+temp_coefftA_HER 2.6
+temp_coefftA_ATF 2.497
+temp_coefftA_HAL 3.084
+temp_coefftA_FHS 2.36
+temp_coefftA_REX 2.36
+temp_coefftA_FFS 2.36
+temp_coefftA_FFD 2.36
+temp_coefftA_SKL 2.36
+temp_coefftA_SKB 2.36
+temp_coefftA_SKO 2.36
+temp_coefftA_SBF 2.36
+temp_coefftA_POP 2.36
+temp_coefftA_RFS 2.36
+temp_coefftA_RFP 2.36
+temp_coefftA_RFD 2.36
+temp_coefftA_THO 2.36
+temp_coefftA_DFS 2.36
+temp_coefftA_DFD 2.36
+temp_coefftA_SCU 2.36
+temp_coefftA_OCT 0.851
+temp_coefftA_SQD 0.851
+temp_coefftA_SCH 2.36
+temp_coefftA_SCM 2.36
+temp_coefftA_SCO 2.36
+temp_coefftA_SPI 2.36
+temp_coefftA_SSO 2.36
+temp_coefftA_HAK 2.36
+temp_coefftA_CAP 2.6
+temp_coefftA_SAN 2.6
+temp_coefftA_FOS 2.6
+temp_coefftA_EUL 2.6
+temp_coefftA_TAN 0.851
+temp_coefftA_KIN 0.851
+temp_coefftA_CRO 0.851
+temp_coefftA_PAN 0.851
+temp_coefftA_PWN 0.851
+temp_coefftA_EBC 0.851
+temp_coefftA_BG 0.851
+temp_coefftA_COR 0.851
+temp_coefftA_SPG 0.851
+temp_coefftA_BFF 0.851
+temp_coefftA_BIV 0.851
+temp_coefftA_BC 0.851
+temp_coefftA_BO 0.851
+temp_coefftA_BD 0.851
+temp_coefftA_MA 0.851
+temp_coefftA_EUP 0.851
+temp_coefftA_ZL 0.851
+temp_coefftA_ZM 0.851
+temp_coefftA_ZS 0.851
+temp_coefftA_JEL 0.851
+temp_coefftA_GEL 0.851
+temp_coefftA_PTE 0.851
+temp_coefftA_PL 0.851
+temp_coefftA_PS 0.851
+temp_coefftA_BB 0.851
+temp_coefftA_PB 0.851
+temp_coefftA_DC 0.851
+temp_coefftA_DL 0.851
+temp_coefftA_DR 0.851
 
-q10_optimal_temp_KWT   15
-q10_optimal_temp_WHT   15
-q10_optimal_temp_KWR   15
-q10_optimal_temp_DOL   15
-q10_optimal_temp_WHG   15
-q10_optimal_temp_WHH   15
-q10_optimal_temp_WHB   15
-q10_optimal_temp_SSL   15
-q10_optimal_temp_PIN   15
-q10_optimal_temp_BDF   15
-q10_optimal_temp_BDI   15
-q10_optimal_temp_BSF   15
-q10_optimal_temp_BSI   15
-q10_optimal_temp_SHD   15
-q10_optimal_temp_SHP   15
-q10_optimal_temp_DOG   15
-q10_optimal_temp_POL   10
-q10_optimal_temp_COD   13.7
-q10_optimal_temp_HER   10
-q10_optimal_temp_ATF   20.512
-q10_optimal_temp_HAL   12.97
-q10_optimal_temp_FHS   15
-q10_optimal_temp_REX   15
-q10_optimal_temp_FFS   15
-q10_optimal_temp_FFD   15
-q10_optimal_temp_SKL   15
-q10_optimal_temp_SKB   15
-q10_optimal_temp_SKO   15
-q10_optimal_temp_SBF   15
-q10_optimal_temp_POP   15
-q10_optimal_temp_RFS   15
-q10_optimal_temp_RFP   15
-q10_optimal_temp_RFD   15
-q10_optimal_temp_THO   15
-q10_optimal_temp_DFS   15
-q10_optimal_temp_DFD   15
-q10_optimal_temp_SCU   15
-q10_optimal_temp_OCT   15
-q10_optimal_temp_SQD   15
-q10_optimal_temp_SCH   15
-q10_optimal_temp_SCM   15
-q10_optimal_temp_SCO   15
-q10_optimal_temp_SPI   15
-q10_optimal_temp_SSO   15
-q10_optimal_temp_HAK   15
-q10_optimal_temp_CAP   10
-q10_optimal_temp_SAN   10
-q10_optimal_temp_FOS   10
-q10_optimal_temp_EUL   10
-q10_optimal_temp_TAN   15
-q10_optimal_temp_KIN   15
-q10_optimal_temp_CRO   15
-q10_optimal_temp_PAN   15
-q10_optimal_temp_PWN   15
-q10_optimal_temp_EBC   15
-q10_optimal_temp_BG   15
-q10_optimal_temp_COR   15
-q10_optimal_temp_SPG   15
-q10_optimal_temp_BFF   15
-q10_optimal_temp_BIV   15
-q10_optimal_temp_BC   15
-q10_optimal_temp_BO   15
-q10_optimal_temp_BD   15
-q10_optimal_temp_MA   15
-q10_optimal_temp_EUP   15
-q10_optimal_temp_ZL   15
-q10_optimal_temp_ZM   15
-q10_optimal_temp_ZS   15
-q10_optimal_temp_JEL   15
-q10_optimal_temp_GEL   15
-q10_optimal_temp_PTE   15
-q10_optimal_temp_PL   15
-q10_optimal_temp_PS   15
-q10_optimal_temp_BB   15
-q10_optimal_temp_PB   15
+q10_optimal_temp_KWT 15
+q10_optimal_temp_WHT 15
+q10_optimal_temp_KWR 15
+q10_optimal_temp_DOL 15
+q10_optimal_temp_WHG 15
+q10_optimal_temp_WHH 15
+q10_optimal_temp_WHB 15
+q10_optimal_temp_SSL 15
+q10_optimal_temp_PIN 15
+q10_optimal_temp_BDF 15
+q10_optimal_temp_BDI 15
+q10_optimal_temp_BSF 15
+q10_optimal_temp_BSI 15
+q10_optimal_temp_SHD 15
+q10_optimal_temp_SHP 15
+q10_optimal_temp_DOG 15
+q10_optimal_temp_POL 10
+q10_optimal_temp_COD 13.7
+q10_optimal_temp_HER 10
+q10_optimal_temp_ATF 20.512
+q10_optimal_temp_HAL 12.97
+q10_optimal_temp_FHS 12.1100915908813
+q10_optimal_temp_REX 12.1100915908813
+q10_optimal_temp_FFS 9.73466477394103
+q10_optimal_temp_FFD 12.1100915908813
+q10_optimal_temp_SKL 12.8257354736328
+q10_optimal_temp_SKB 12.1100915908813
+q10_optimal_temp_SKO 10.2669519424438
+q10_optimal_temp_SBF 12.1100915908813
+q10_optimal_temp_POP 12.1100915908813
+q10_optimal_temp_RFS 8.8773670196533
+q10_optimal_temp_RFP 13.339959526062
+q10_optimal_temp_RFD 12.1100915908813
+q10_optimal_temp_THO 19.0537405014038
+q10_optimal_temp_DFS 14.1995613098144
+q10_optimal_temp_DFD 8.09384746551514
+q10_optimal_temp_SCU 7.19054018656414
+q10_optimal_temp_OCT 15
+q10_optimal_temp_SQD 15
+q10_optimal_temp_SCH 13.339959526062
+q10_optimal_temp_SCM 13.6715158462525
+q10_optimal_temp_SCO 18.9646356582642
+q10_optimal_temp_SPI 13.339959526062
+q10_optimal_temp_SSO 8.95839462280273
+q10_optimal_temp_HAK 18.9646356582642
+q10_optimal_temp_CAP 10
+q10_optimal_temp_SAN 10
+q10_optimal_temp_FOS 10
+q10_optimal_temp_EUL 10
+q10_optimal_temp_TAN 15
+q10_optimal_temp_KIN 15
+q10_optimal_temp_CRO 15
+q10_optimal_temp_PAN 15
+q10_optimal_temp_PWN 15
+q10_optimal_temp_EBC 15
+q10_optimal_temp_BG 15
+q10_optimal_temp_COR 15
+q10_optimal_temp_SPG 15
+q10_optimal_temp_BFF 15
+q10_optimal_temp_BIV 15
+q10_optimal_temp_BC 15
+q10_optimal_temp_BO 15
+q10_optimal_temp_BD 15
+q10_optimal_temp_MA 15
+q10_optimal_temp_EUP 15
+q10_optimal_temp_ZL 15
+q10_optimal_temp_ZM 15
+q10_optimal_temp_ZS 15
+q10_optimal_temp_JEL 15
+q10_optimal_temp_GEL 15
+q10_optimal_temp_PTE 15
+q10_optimal_temp_PL 15
+q10_optimal_temp_PS 15
+q10_optimal_temp_BB 15
+q10_optimal_temp_PB 15
+q10_optimal_temp_DC 15
+q10_optimal_temp_DL 15
+q10_optimal_temp_DR 15
 
 # q10 correction parameter for GG's formulation (1000)
 
-q10_correction_KWT   1000
-q10_correction_WHT   1000
-q10_correction_KWR   1000
-q10_correction_DOL   1000
-q10_correction_WHG   1000
-q10_correction_WHH   1000
-q10_correction_WHB   1000
-q10_correction_SSL   1000
-q10_correction_PIN   1000
-q10_correction_BDF   1000
-q10_correction_BDI   1000
-q10_correction_BSF   1000
-q10_correction_BSI   1000
-q10_correction_SHD   1000
-q10_correction_SHP   1000
-q10_correction_DOG   1000
-q10_correction_POL   15
-q10_correction_COD   21
-q10_correction_HER   15
-q10_correction_ATF   26
-q10_correction_HAL   18
-q10_correction_FHS   1000
-q10_correction_REX   1000
-q10_correction_FFS   1000
-q10_correction_FFD   1000
-q10_correction_SKL   1000
-q10_correction_SKB   1000
-q10_correction_SKO   1000
-q10_correction_SBF   1000
-q10_correction_POP   1000
-q10_correction_RFS   1000
-q10_correction_RFP   1000
-q10_correction_RFD   1000
-q10_correction_THO   1000
-q10_correction_DFS   1000
-q10_correction_DFD   1000
-q10_correction_SCU   1000
-q10_correction_OCT   1000
-q10_correction_SQD   1000
-q10_correction_SCH   1000
-q10_correction_SCM   1000
-q10_correction_SCO   1000
-q10_correction_SPI   1000
-q10_correction_SSO   1000
-q10_correction_HAK   1000
-q10_correction_CAP   15
-q10_correction_SAN   15
-q10_correction_FOS   15
-q10_correction_EUL   15
-q10_correction_TAN   1000
-q10_correction_KIN   1000
-q10_correction_CRO   1000
-q10_correction_PAN   1000
-q10_correction_PWN   1000
-q10_correction_EBC   1000
-q10_correction_BG   1000
-q10_correction_COR   1000
-q10_correction_SPG   1000
-q10_correction_BFF   1000
-q10_correction_BIV   1000
-q10_correction_BC   1000
-q10_correction_BO   1000
-q10_correction_BD   1000
-q10_correction_MA   1000
-q10_correction_EUP   1000
-q10_correction_ZL   1000
-q10_correction_ZM   1000
-q10_correction_ZS   1000
-q10_correction_JEL   1000
-q10_correction_GEL   1000
-q10_correction_PTE   1000
-q10_correction_PL   1000
-q10_correction_PS   1000
-q10_correction_BB   1000
-q10_correction_PB   1000
+q10_correction_KWT 1000
+q10_correction_WHT 1000
+q10_correction_KWR 1000
+q10_correction_DOL 1000
+q10_correction_WHG 1000
+q10_correction_WHH 1000
+q10_correction_WHB 1000
+q10_correction_SSL 1000
+q10_correction_PIN 1000
+q10_correction_BDF 1000
+q10_correction_BDI 1000
+q10_correction_BSF 1000
+q10_correction_BSI 1000
+q10_correction_SHD 1000
+q10_correction_SHP 1000
+q10_correction_DOG 1000
+q10_correction_POL 15
+q10_correction_COD 21
+q10_correction_HER 15
+q10_correction_ATF 26
+q10_correction_HAL 18
+q10_correction_FHS 17.3001308441162
+q10_correction_REX 17.3001308441162
+q10_correction_FFS 13.9066639627729
+q10_correction_FFD 17.3001308441162
+q10_correction_SKL 18.3224792480469
+q10_correction_SKB 17.3001308441162
+q10_correction_SKO 14.6670742034912
+q10_correction_SBF 17.3001308441162
+q10_correction_POP 17.3001308441162
+q10_correction_RFS 12.681952885219
+q10_correction_RFP 19.0570850372314
+q10_correction_RFD 17.3001308441162
+q10_correction_THO 27.2196292877197
+q10_correction_DFS 20.2850875854492
+q10_correction_DFD 11.5626392364502
+q10_correction_SCU 10.2722002665202
+q10_correction_OCT 1000
+q10_correction_SQD 1000
+q10_correction_SCH 19.0570850372314
+q10_correction_SCM 19.5307369232178
+q10_correction_SCO 27.0923366546631
+q10_correction_SPI 19.0570850372314
+q10_correction_SSO 12.7977066040039
+q10_correction_HAK 27.0923366546631
+q10_correction_CAP 15
+q10_correction_SAN 15
+q10_correction_FOS 15
+q10_correction_EUL 15
+q10_correction_TAN 1000
+q10_correction_KIN 1000
+q10_correction_CRO 1000
+q10_correction_PAN 1000
+q10_correction_PWN 1000
+q10_correction_EBC 1000
+q10_correction_BG 1000
+q10_correction_COR 1000
+q10_correction_SPG 1000
+q10_correction_BFF 1000
+q10_correction_BIV 1000
+q10_correction_BC 1000
+q10_correction_BO 1000
+q10_correction_BD 1000
+q10_correction_MA 1000
+q10_correction_EUP 1000
+q10_correction_ZL 1000
+q10_correction_ZM 1000
+q10_correction_ZS 1000
+q10_correction_JEL 1000
+q10_correction_GEL 1000
+q10_correction_PTE 1000
+q10_correction_PL 1000
+q10_correction_PS 1000
+q10_correction_BB 1000
+q10_correction_PB 1000
+q10_correction_DC 1000
+q10_correction_DL 1000
+q10_correction_DR 1000
 
 # Damping coefficient for BB fluxes
 
@@ -3766,81 +3853,84 @@ flagtempsensitivePB   2
 
 # The method of calculating Q10 0 is the 'normal' way of calculating it. 1 is the 'new' climate change method from Gary G.
 
-q10_method_KWT   0
-q10_method_WHT   0
-q10_method_KWR   0
-q10_method_DOL   0
-q10_method_WHG   0
-q10_method_WHH   0
-q10_method_WHB   0
-q10_method_SSL   0
-q10_method_PIN   0
-q10_method_BDF   0
-q10_method_BDI   0
-q10_method_BSF   0
-q10_method_BSI   0
-q10_method_SHD   0
-q10_method_SHP   0
-q10_method_DOG   0
-q10_method_POL   2
-q10_method_COD   2
-q10_method_HER   2
-q10_method_ATF   2
-q10_method_HAL   2
-q10_method_FHS   0
-q10_method_REX   0
-q10_method_FFS   0
-q10_method_FFD   0
-q10_method_SKL   0
-q10_method_SKB   0
-q10_method_SKO   0
-q10_method_SBF   0
-q10_method_POP   0
-q10_method_RFS   0
-q10_method_RFP   0
-q10_method_RFD   0
-q10_method_THO   0
-q10_method_DFS   0
-q10_method_DFD   0
-q10_method_SCU   0
-q10_method_OCT   0
-q10_method_SQD   0
-q10_method_SCH   0
-q10_method_SCM   0
-q10_method_SCO   0
-q10_method_SPI   0
-q10_method_SSO   0
-q10_method_HAK   0
-q10_method_CAP   2
-q10_method_SAN   2
-q10_method_FOS   2
-q10_method_EUL   2
-q10_method_TAN   0
-q10_method_KIN   0
-q10_method_CRO   0
-q10_method_PAN   0
-q10_method_PWN   0
-q10_method_EBC   0
-q10_method_BG   0
-q10_method_COR   0
-q10_method_SPG   0
-q10_method_BFF   0
-q10_method_BIV   0
-q10_method_BC   0
-q10_method_BO   0
-q10_method_BD   0
-q10_method_MA   0
-q10_method_EUP   0
-q10_method_ZL   0
-q10_method_ZM   0
-q10_method_ZS   0
-q10_method_JEL   0
-q10_method_GEL   0
-q10_method_PTE   0
-q10_method_PL   0
-q10_method_PS   0
-q10_method_BB   0
-q10_method_PB   0
+q10_method_KWT 0
+q10_method_WHT 0
+q10_method_KWR 0
+q10_method_DOL 0
+q10_method_WHG 0
+q10_method_WHH 0
+q10_method_WHB 0
+q10_method_SSL 0
+q10_method_PIN 0
+q10_method_BDF 0
+q10_method_BDI 0
+q10_method_BSF 0
+q10_method_BSI 0
+q10_method_SHD 0
+q10_method_SHP 0
+q10_method_DOG 0
+q10_method_POL 2
+q10_method_COD 2
+q10_method_HER 2
+q10_method_ATF 2
+q10_method_HAL 2
+q10_method_FHS 2
+q10_method_REX 2
+q10_method_FFS 2
+q10_method_FFD 2
+q10_method_SKL 2
+q10_method_SKB 2
+q10_method_SKO 2
+q10_method_SBF 2
+q10_method_POP 2
+q10_method_RFS 2
+q10_method_RFP 2
+q10_method_RFD 2
+q10_method_THO 2
+q10_method_DFS 2
+q10_method_DFD 2
+q10_method_SCU 2
+q10_method_OCT 0
+q10_method_SQD 0
+q10_method_SCH 2
+q10_method_SCM 2
+q10_method_SCO 2
+q10_method_SPI 2
+q10_method_SSO 2
+q10_method_HAK 2
+q10_method_CAP 2
+q10_method_SAN 2
+q10_method_FOS 2
+q10_method_EUL 2
+q10_method_TAN 0
+q10_method_KIN 0
+q10_method_CRO 0
+q10_method_PAN 0
+q10_method_PWN 0
+q10_method_EBC 0
+q10_method_BG 0
+q10_method_COR 0
+q10_method_SPG 0
+q10_method_BFF 0
+q10_method_BIV 0
+q10_method_BC 0
+q10_method_BO 0
+q10_method_BD 0
+q10_method_MA 0
+q10_method_EUP 0
+q10_method_ZL 0
+q10_method_ZM 0
+q10_method_ZS 0
+q10_method_JEL 0
+q10_method_GEL 0
+q10_method_PTE 0
+q10_method_PL 0
+q10_method_PS 0
+q10_method_BB 0
+q10_method_PB 0
+q10_method_DC 0
+q10_method_DL 0
+q10_method_DR 0
 
 # All groups: Indicate if groups are dependent on demersal habitat: 0 = no, 1 = yes   0. Uses flaghabdepend, general vertebrate demersal habitat dependency: 0 = no, 1 = yes 0
 
@@ -16563,239 +16653,239 @@ C_BB_T15   0.01
 C_PB_T15   0.01
 
 # Clearance rate of each vertebrate group, per age class       mg3(mg N)-1 d-1
-C_ATF  10    
+C_ATF  10     
 
-3.740971  12.429691  12.919943  21.032343  38.705497  75.348229 138.315600 162.317314 184.643771 205.101486
+3.740971 12.42969 12.91994 21.03234 38.7055 75.34823 138.3156 162.3173 184.6438 205.1015 
 
 
-C_BDF  10    
+C_BDF  10     
 
 101.4145 22.53655 22.53655 22.53655 22.53655 22.53655 22.53655 22.53655 22.53655 22.53655 
 
 
-C_BDI  8    
+C_BDI  8     
 
 16.74544 2.480806 2.480806 2.480806 2.480806 2.480806 2.480806 2.480806 
 
 
-C_BSF  10    
+C_BSF  10     
 
 81.19594 14.7629 14.7629 14.7629 14.7629 14.7629 14.7629 14.7629 14.7629 14.7629 
 
 
-C_BSI  10    
+C_BSI  10     
 
 18.05439 12.03626 12.03626 12.03626 12.03626 12.03626 12.03626 12.03626 12.03626 12.03626 
 
 
-C_CAP  5    
+C_CAP  5     
 
-0.7650266 2.2219860 2.3553380 2.9966460 3.4277580
+0.7650266 2.221986 2.355338 2.996646 3.427758 
 
 
-C_COD  10    
+C_COD  10     
 
 2.054612 7.866918 13.43171 14.24499 19.77203 25.22034 30.39272 35.17684 39.51905 43.40483 
 
 
-C_DFD  10    
+C_DFD  10     
 
 12.46907 42.28323 82.27927 127.7527 175.4969 223.3394 269.8406 314.0844 355.5267 393.8868 
 
 
-C_DFS  10    
+C_DFS  10     
 
-4.596438  15.615866  19.675166  29.379098  38.685458  47.169122  54.656364  91.680274  99.920534 106.843912
-
-
-C_DOG  10    
-
-15.41884  48.46005  84.47778 116.92233 287.39421 329.50017 361.65069 578.61081 605.34891 624.96522
+4.596438 15.61587 19.67517 29.3791 58.02819 70.75368 81.98455 137.5204 149.8808 160.2659 
 
 
-C_DOL  10    
+C_DOG  10     
+
+26.98297 84.80509 147.8361 116.9223 287.3942 329.5002 361.6507 578.6108 605.3489 624.9652 
+
+
+C_DOL  10     
 
 22487.39 48888.55 60454.52 28697.51 29311.7 29513.37 29579.83 8880.14 8882.2 8882.887 
 
 
-C_EUL  5    
+C_EUL  5     
 
-2.165880  6.743224 11.415020 15.300592 18.249182
+2.16588 6.743224 11.41502 15.30059 18.24918 
 
 
-C_FFD  10    
+C_FFD  10     
 
 1.074505 2.556153 3.466039 5.890431 6.21716 6.367222 6.435298 6.466018 6.47984 6.486058 
 
 
-C_FFS  10    
+C_FFS  10     
 
 1.01475 3.054166 5.102712 6.800393 8.091053 9.027972 9.689938 10.1499 10.46611 10.68202 
 
 
-C_FHS  10    
+C_FHS  10     
 
 3.062693 9.984986 17.43245 23.90993 29.02619 32.86191 17.82503 18.819 19.51892 20.00775 
 
 
-C_FOS  7    
+C_FOS  7     
 
-0.1257489 0.4769797 0.9080584 1.3206352 1.6726400 1.9545200 2.1717464
+0.1005991 0.3815838 0.7264467 1.056508 1.338112 1.563616 1.737397 
 
 
-C_HAK  10    
+C_HAK  10     
 
 12.24787 31.35939 45.9426 55.21903 60.69916 63.82479 65.57588 66.54767 67.08426 67.37972 
 
 
-C_HAL  10    
+C_HAL  10     
 
-11.52749  30.42410  31.80796  51.35885  54.09645 104.51280 253.96980 296.03028 836.55628 923.77712
-
-
-C_HER  8    
-
-1.910622  5.379246  8.489266 10.796324  2.036730  2.206846  2.315770  2.384578
+11.52749 30.4241 31.80796 51.35885 54.09645 104.5128 253.9698 296.0303 836.5563 923.7771 
 
 
-C_KWR  10    
+C_HER  8     
+
+1.910622 5.379246 8.489266 10.79632 2.03673 2.206846 2.31577 2.384578 
+
+
+C_KWR  10     
 
 62340.7 214991 337691.6 157529 171893.3 178981.6 182398.5 184028.2 184801.3 185167.5 
 
 
-C_KWT  10    
+C_KWT  10     
 
-316651.2 1092018 1286444.2 1560286.5 1702561.5  997183.5  451653.3  455689.1  457603.2  458510.1 
+237488.4 819013.5 964833.1 1170215 1276921 747887.6 338740 341766.8 343202.4 343882.6 
 
 
-C_PIN  10    
+C_PIN  10     
 
 2354.827 9526.942 17693.96 24563.77 29619.72 33092.06 17693.49 18434.29 18906.47 19205.04 
 
 
-C_POL  10    
+C_POL  10     
 
 6.331416 20.71366 37.50198 37.29119 31.47982 37.03676 41.55882 67.74558 71.99565 75.30288 
 
 
-C_POP  10    
+C_POP  10     
 
-16.24157 33.56719 42.52082 46.48295 48.14741 48.83301 49.11322 49.22739 49.27385 49.29275 
-
-
-C_REX  10    
-
-1.683100 3.809553 2.543884 2.807577 2.918046 2.963220 2.981520 2.988906 2.991882 2.993079
+30.453 62.9385 79.7265 87.1555 90.27638 91.56188 92.08725 92.30137 92.3885 92.42387 
 
 
-C_RFD  10    
+C_REX  10     
 
-1.98536 5.24038 15.86476 19.59208 43.97193 46.9342 40.6088 41.50642 42.04121 42.35864 
-
-
-C_RFP  10    
-
-31.11616 76.4826 108.3842 127.1176 137.3691 109.8479 112.0288 113.1581 113.7405 114.0404 
+1.6831 3.809553 2.543884 2.807577 2.918046 2.96322 2.98152 2.988906 2.991882 2.993079 
 
 
-C_RFS  10    
+C_RFD  10     
 
-4.127938  8.382477 13.627609 14.782699 15.247395 15.430950 15.502950 15.531105 15.542115 15.546405
-
-
-C_SAN  5    
-
-0.8370093 1.449479 2.513853 5.546270 6.797019 
+2.97804 7.86057 23.79714 29.38812 65.9579 70.4013 60.9132 62.25963 63.06181 63.53796 
 
 
-C_SBF  10    
+C_RFP  10     
 
-46.0008 114.4275 130.3313 102.1246 110.4769  95.7562 146.5258 148.0235 148.7962 149.1941
+41.07336 100.9571 143.0671 167.7953 181.3272 144.9992 147.878 149.3687 150.1375 150.5333 
 
-C_SCH  7    
+
+C_RFS  10     
+
+6.19191 12.57372 20.44141 22.17405 22.87109 23.14643 23.25443 23.29666 23.31317 23.31961 
+
+
+C_SAN  5     
+
+0.8370093 1.449479 2.513853 5.54627 6.797019 
+
+
+C_SBF  10     
+
+46.0008 114.4275 130.3313 102.1246 110.4769 95.7562 146.5258 148.0235 148.7962 149.1941 
+
+
+C_SCH  7     
 
 81.45551 229.4947 365.6104 469.798 543.3974 593.2622 626.2563 
 
 
-C_SCM  5    
+C_SCM  5     
 
 68.3927 209.6351 358.6122 488.8518 593.3725 
 
 
-C_SCO  3    
+C_SCO  3     
 
 172.9213 337.6685 414.3992 
 
 
-C_SCU  10    
+C_SCU  10     
 
 2.630135 6.70989 9.74018 7.73879 8.451293 8.84502 9.058857 9.173963 9.235633 9.268597 
 
 
-C_SHD  10    
+C_SHD  10     
 
 121.3541 399.0031 881.16 1285.889 1659.392 1987.541 2267.02 2500.119 2691.704 2847.507 
 
 
-C_SHP  10    
+C_SHP  10     
 
 3984.826 14230.88 18405.97 26294.1 27431.55 31802.45 35142.95 37638.78 39475.73 40814.12 
 
 
-C_SKB  10    
+C_SKB  10     
 
 1.580861 6.24425 7.938304 13.41171 19.80884 26.88323 34.42607 42.26322 50.25124 58.27346 
 
 
-C_SKL  10    
+C_SKL  10     
 
-2.562872  11.269063  25.934510  45.815378  70.049910  97.787312 128.238488 160.696480 194.541480 229.239780
-
-
-C_SKO  10    
-
-5.053838  18.512186  36.564178  56.319648  75.937442  94.354624 111.033006 125.769042 138.561472 149.523220
+2.562872 11.26906 25.93451 45.81538 70.04991 97.78731 128.2385 160.6965 194.5415 229.2398 
 
 
-C_SPI  2    
+C_SKO  10     
+
+5.053838 18.51219 36.56418 56.31965 75.93744 94.35462 111.033 125.769 138.5615 149.5232 
+
+
+C_SPI  2     
 
 79.1387 104.0487 
 
 
-C_SSL  10    
+C_SSL  10     
 
-6822.470 21463.056 26324.550 31743.072 23083.434 13365.697  9089.816  6118.576  6147.328  6161.398 
+6822.47 21463.06 26324.55 31743.07 23083.43 13365.7 9089.816 6118.576 6147.328 6161.398 
 
 
-C_SSO  7    
+C_SSO  7     
 
 76.25873 193.9956 284.9746 343.9421 379.5008 400.2114 412.0592 
 
 
-C_THO  10    
+C_THO  10     
 
-1.321254 2.612502 18.33162 29.10652 40.15127 50.79415 60.64992 69.53089 77.37808 84.21177 
+1.981881 3.918753 27.49743 43.65978 60.2269 76.19123 90.97488 104.2963 116.0671 126.3177 
 
 
-C_WHB  10    
+C_WHB  10     
 
 73019.18 286344.8 508643.9 678037.7 791021.1 861582.8 904140.5 929319.8 944057.7 952630.8 
 
 
-C_WHG  10    
+C_WHG  10     
 
 156636 355236.4 442767.8 473501.8 251885.8 253586.9 127066.2 105961.3 105984.6 105992.1 
 
 
-C_WHH  10    
+C_WHH  10     
 
 47824.52 183842.8 365054.3 556947.7 739218.1 901942.1 1041649 1158496 1254451 1332222 
 
 
-C_WHT  10    
+C_WHT  10     
 
-422779.1 2379561 5738006 5979705 8599104 11100048 13352932 15304642 16949925 18309960 
-
+338223.3 1903649 4590405 4783764 6879283 8880038 10682346 12243714 13559940 14647968 
 
 
 
@@ -20541,17 +20631,17 @@ KDENR_WHT  1
 
 KDENR_KWR  1
  
-0.042
+0.0315
  
 
 KDENR_DOL  1
  
-0.0714
+0.05712
  
 
 KDENR_WHG  1
  
-0.3135
+0.235125
  
 
 KDENR_WHH  1
@@ -20561,12 +20651,12 @@ KDENR_WHH  1
 
 KDENR_WHB  1
  
-0.074
+0.0444
  
 
 KDENR_SSL  1
  
-0.125
+0.075
  
 
 KDENR_PIN  1
@@ -20581,7 +20671,7 @@ KDENR_BDF  1
 
 KDENR_BDI  1
  
-0.309
+0.1854
  
 
 KDENR_BSF  1
@@ -20606,7 +20696,7 @@ KDENR_SHP  1
 
 KDENR_DOG  1
  
-0.2125
+0.159375
  
 
 KDENR_POL  1
@@ -21559,25 +21649,25 @@ BHalpha_BSI   99
 BHalpha_SHD   99
 BHalpha_SHP   99
 BHalpha_DOG   99
-BHalpha_POL   9865840521
+BHalpha_POL   10852424573
 BHalpha_COD   4781148000
 BHalpha_HER   1.806e+10
 BHalpha_ATF   14184103062
 BHalpha_HAL   159839236
 BHalpha_FHS   1211760000
 BHalpha_REX   824175000
-BHalpha_FFS   4091440080
+BHalpha_FFS   3682296072
 BHalpha_FFD   113040000
 BHalpha_SKL   9342162
-BHalpha_SKB   10079394
+BHalpha_SKB   20158788
 BHalpha_SKO   3199707
 BHalpha_SBF   205774619
-BHalpha_POP   67244560
+BHalpha_POP   80693472
 BHalpha_RFS   2.07e+08
-BHalpha_RFP   3501000
-BHalpha_RFD   4227584
-BHalpha_THO   5161456
-BHalpha_DFS   8.64e+09
+BHalpha_RFP   4201200
+BHalpha_RFD   4650342
+BHalpha_THO   4645310
+BHalpha_DFS   5.184e+09
 BHalpha_DFD   772200000
 BHalpha_SCU   44496993
 BHalpha_SCH   39698656
@@ -21589,7 +21679,7 @@ BHalpha_HAK   4.6656e+11
 BHalpha_CAP   2.2392e+12
 BHalpha_SAN   1.446e+11
 BHalpha_FOS   7.26e+11
-BHalpha_EUL   1.472e+11
+BHalpha_EUL   161920000000
 
 # Beverton-Holt recruitment. Beta in Beverton-Holt
 
